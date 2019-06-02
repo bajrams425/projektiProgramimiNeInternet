@@ -1,0 +1,17 @@
+Create Table Users(
+	userId INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    userName VARCHAR(10) NOT NULL,
+    userLName VARCHAR(10) NOT NULL,
+    userPhone VARCHAR(12) NOT NULL,
+    userMail TINYTEXT NOT NULL,
+	userUsername TINYTEXT NOT NULL,
+    userPwd LONGTEXT NOT NULL
+);
+CREATE TABLE posts (
+	PostId int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    postTitle LONGTEXT NOT NULL,
+    postDesk LONGTEXT NOT NULL,
+    postImageFile LONGTEXT NOT NULL,
+    orderGallery LONGTEXT NOT NULL,
+	userUsername LONGTEXT NOT NULL
+);
