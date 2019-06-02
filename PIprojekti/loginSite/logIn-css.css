@@ -1,0 +1,139 @@
+body{
+  background-color: rgb(38, 38, 38);
+}
+#llogo{
+  margin-left: 45%;
+  margin-top: 8%;
+}
+.toBefaded{
+  display: none;
+}
+.faded{
+  display: none;
+}
+.formButton{
+  margin-left: 40%;
+  width: 350px;
+  padding: 15px;
+  background-color: lightgray;
+  border-radius: 5px;
+  border-color: red;
+  font-family: "Century Gothic";
+  text-align: left;
+  font-size: 20px;
+}
+form{
+  margin-left: 40%;
+}
+.formp{
+  height: 20px;
+  width: 20px;
+  margin-left: none;
+}
+.formButton:hover{
+  cursor: pointer;
+}
+#mesilogin{
+  display: none;
+}
+#fundilogin{
+  display: none;
+}
+.mlogin{
+  width: 315px;
+  padding: 15px;
+  background-color: lightgray;
+  border-radius: 5px;
+  border-color: red;
+  font-family: "Century Gothic";
+  text-align: left;
+  font-size: 20px;
+}
+#displayPassword{
+  height:19px;
+  width: 20px;
+}
+#lpass{
+  width:268px;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#spass{
+  width:268px;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#dpass{
+  width: 50px;
+  background-color: lightgray;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#fpass{
+  width: 50px;
+  background-color: lightgray;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#fdisplayPassword{
+  height:19px;
+  width: 20px;
+}
+.loginBack:hover{
+  cursor: pointer;
+}
+.signupBack:hover{
+  cursor: pointer;
+}
+.deskView:hover{
+  cursor: pointer;
+}
+#gotob:hover{
+  cursor:pointer;
+}
+#gotob{
+  margin-top:.3%;
+  width: 350px;
+  padding: 15px;
+  background-color: lightgray;
+  border-radius: 5px;
+  border-color: red;
+  font-family: "Century Gothic";
+  text-align: center;
+  font-size: 20px;
+}
+#regb:hover{
+  cursor:pointer;
+}
+#regb{
+  margin-top:.3%;
+  width: 350px;
+  padding: 15px;
+  background-color: lightgray;
+  border-radius: 5px;
+  border-color: red;
+  font-family: "Century Gothic";
+  text-align: center;
+  font-size: 20px;
+}
+span.errMsg{
+    margin-top: 20px;
+    margin-left: 0.5%;
+    position: absolute;
+    z-index: 1;
+    opacity: .7;
+}
+label.error {
+    height:30px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 4px;
+    font-family: "Century Gothic";
+    text-align: center;
+    font-size: 20px;
+}
